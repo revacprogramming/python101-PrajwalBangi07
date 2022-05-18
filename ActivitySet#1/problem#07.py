@@ -3,7 +3,7 @@ smallest = None
 
 while True:
     try:
-        num = raw_input("Enter a number: ")
+        num = input("Enter a number: ")
         if num == 'done':
             break;
         n = int(num)

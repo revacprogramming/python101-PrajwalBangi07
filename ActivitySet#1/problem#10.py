@@ -1,8 +1,8 @@
 # Dictionaries
 
 #filename = "dataset/mbox-short.txt"
-fname = input("Enter file name: ")
-fh = open(fname)
+filename = input("Enter file name: ")
+fh = open(filename)
 lst = list()
 for line in fh:
     line.rstrip()
