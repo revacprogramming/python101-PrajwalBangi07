@@ -2,13 +2,15 @@
 # https://www.py4e.com/lessons/regex
 
 fname = input("Enter file:")
-if len(fname) < 1 : name = "mbox-short.txt"
+if len(fname) < 1 : 
+  name = "mbox-short.txt"
 hand = open(fname)
 
 lst = list()
 
 for line in hand:
-    if not line.startswith("From:"): continue
+    if not line.startswith("From:"):
+      continue
     line = line.split()
     lst.append(line[1])
 
